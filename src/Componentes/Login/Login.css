@@ -1,0 +1,66 @@
+.container {
+    display: grid;
+    grid-template-columns: 1fr;
+    background:linear-gradient(rgb(93, 20, 189), rgb(69, 6, 121), rgb(107, 0, 207), rgb(98, 0, 155));;
+    border-width: 5px;
+    border-radius: 75px;
+    border-color: black;
+    padding: 10px;
+    box-shadow: 8px 8px 16px rgba(0, 0, 0, 0.8);
+}
+
+.espaco-imagem {
+    position: relative;
+    width: 300px;
+    height: 130px;
+}
+
+.img-logo{
+    position: absolute;
+    display: block;
+    width: 100%;
+    margin: 40px;
+}
+
+.container a {
+    margin-left: 37px;
+}
+
+.cadastro {
+    padding-left: 21%;
+}
+
+.form-login {
+    margin: 15px 30px 10px;
+}
+
+.container label {
+    text-align: center;
+    font-size: 42px;
+    display: block;
+}
+
+.container input {
+    background-color: #cccccc;
+    border-radius: 10px;
+    font-size: 22px;
+    height: 15px;
+    margin-bottom: 1px;
+    padding: 15px;
+    width: 280px;
+}
+
+.botao {
+    display: grid;
+    background-color: black;
+    box-shadow: 0 0 10px 5px rgba(247, 245, 245, 0.966);
+    border-radius: 50px;
+    font-weight: 700;
+    font-size: 18px;
+    padding: 7px 76px;
+    border: none;
+    cursor: pointer;
+    color: white;
+    margin: 50px auto 20px ;
+}
+
